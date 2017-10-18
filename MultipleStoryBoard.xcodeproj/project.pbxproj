@@ -14,6 +14,16 @@
 		860CAD881F94838D0039CE3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860CAD861F94838D0039CE3E /* LaunchScreen.storyboard */; };
 		860CAD931F94838D0039CE3E /* MultipleStoryBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CAD921F94838D0039CE3E /* MultipleStoryBoardTests.swift */; };
 		860CAD9E1F94838D0039CE3E /* MultipleStoryBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CAD9D1F94838D0039CE3E /* MultipleStoryBoardUITests.swift */; };
+		860CADAC1F9487950039CE3E /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860CADAB1F9487950039CE3E /* Login.storyboard */; };
+		860CADAE1F9487AD0039CE3E /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860CADAD1F9487AD0039CE3E /* Home.storyboard */; };
+		860CADB01F9487BD0039CE3E /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860CADAF1F9487BD0039CE3E /* Settings.storyboard */; };
+		860CADB21F948A4D0039CE3E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CADB11F948A4D0039CE3E /* LoginViewController.swift */; };
+		860CADB41F948A5B0039CE3E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CADB31F948A5B0039CE3E /* RegisterViewController.swift */; };
+		860CADB61F948A6B0039CE3E /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CADB51F948A6B0039CE3E /* ForgotPasswordViewController.swift */; };
+		860CADB81F948A820039CE3E /* LoginDashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CADB71F948A820039CE3E /* LoginDashBoardViewController.swift */; };
+		860CADBB1F948D170039CE3E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CADBA1F948D170039CE3E /* HomeViewController.swift */; };
+		860CADBD1F948D230039CE3E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CADBC1F948D230039CE3E /* SettingsViewController.swift */; };
+		860CADC11F94945C0039CE3E /* AppStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CADC01F94945C0039CE3E /* AppStoryBoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		860CAD991F94838D0039CE3E /* MultipleStoryBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleStoryBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		860CAD9D1F94838D0039CE3E /* MultipleStoryBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleStoryBoardUITests.swift; sourceTree = "<group>"; };
 		860CAD9F1F94838D0039CE3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		860CADAB1F9487950039CE3E /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		860CADAD1F9487AD0039CE3E /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		860CADAF1F9487BD0039CE3E /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		860CADB11F948A4D0039CE3E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		860CADB31F948A5B0039CE3E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		860CADB51F948A6B0039CE3E /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		860CADB71F948A820039CE3E /* LoginDashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDashBoardViewController.swift; sourceTree = "<group>"; };
+		860CADBA1F948D170039CE3E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		860CADBC1F948D230039CE3E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		860CADC01F94945C0039CE3E /* AppStoryBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoryBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +117,13 @@
 		860CAD7C1F94838D0039CE3E /* MultipleStoryBoard */ = {
 			isa = PBXGroup;
 			children = (
+				860CAD811F94838D0039CE3E /* Main.storyboard */,
+				860CADC01F94945C0039CE3E /* AppStoryBoard.swift */,
 				860CAD7D1F94838D0039CE3E /* AppDelegate.swift */,
 				860CAD7F1F94838D0039CE3E /* ViewController.swift */,
-				860CAD811F94838D0039CE3E /* Main.storyboard */,
+				860CADB91F948A8A0039CE3E /* Login */,
+				860CADBE1F948D320039CE3E /* Home */,
+				860CADBF1F948D3D0039CE3E /* Settings */,
 				860CAD841F94838D0039CE3E /* Assets.xcassets */,
 				860CAD861F94838D0039CE3E /* LaunchScreen.storyboard */,
 				860CAD891F94838D0039CE3E /* Info.plist */,
@@ -123,6 +147,36 @@
 				860CAD9F1F94838D0039CE3E /* Info.plist */,
 			);
 			path = MultipleStoryBoardUITests;
+			sourceTree = "<group>";
+		};
+		860CADB91F948A8A0039CE3E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				860CADB11F948A4D0039CE3E /* LoginViewController.swift */,
+				860CADB31F948A5B0039CE3E /* RegisterViewController.swift */,
+				860CADB51F948A6B0039CE3E /* ForgotPasswordViewController.swift */,
+				860CADB71F948A820039CE3E /* LoginDashBoardViewController.swift */,
+				860CADAB1F9487950039CE3E /* Login.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		860CADBE1F948D320039CE3E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				860CADAD1F9487AD0039CE3E /* Home.storyboard */,
+				860CADBA1F948D170039CE3E /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		860CADBF1F948D3D0039CE3E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				860CADAF1F9487BD0039CE3E /* Settings.storyboard */,
+				860CADBC1F948D230039CE3E /* SettingsViewController.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +286,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				860CADAC1F9487950039CE3E /* Login.storyboard in Resources */,
+				860CADAE1F9487AD0039CE3E /* Home.storyboard in Resources */,
 				860CAD881F94838D0039CE3E /* LaunchScreen.storyboard in Resources */,
+				860CADB01F9487BD0039CE3E /* Settings.storyboard in Resources */,
 				860CAD851F94838D0039CE3E /* Assets.xcassets in Resources */,
 				860CAD831F94838D0039CE3E /* Main.storyboard in Resources */,
 			);
@@ -259,8 +316,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				860CADB21F948A4D0039CE3E /* LoginViewController.swift in Sources */,
+				860CADC11F94945C0039CE3E /* AppStoryBoard.swift in Sources */,
+				860CADB81F948A820039CE3E /* LoginDashBoardViewController.swift in Sources */,
+				860CADB61F948A6B0039CE3E /* ForgotPasswordViewController.swift in Sources */,
 				860CAD801F94838D0039CE3E /* ViewController.swift in Sources */,
 				860CAD7E1F94838D0039CE3E /* AppDelegate.swift in Sources */,
+				860CADBB1F948D170039CE3E /* HomeViewController.swift in Sources */,
+				860CADB41F948A5B0039CE3E /* RegisterViewController.swift in Sources */,
+				860CADBD1F948D230039CE3E /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

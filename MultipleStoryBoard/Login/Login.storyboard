@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login Dash Board View Controller-->
+        <scene sceneID="9v2-1d-Xcf">
+            <objects>
+                <viewController storyboardIdentifier="LoginVC" id="ujj-1i-p44" customClass="LoginDashBoardViewController" customModule="MultipleStoryBoard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XFi-qY-vLJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="a0G-jM-1Ey">
+                                <rect key="frame" x="20" y="233.5" width="335" height="200"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gh3-SD-dTW">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="50"/>
+                                        <color key="backgroundColor" red="0.14117647059999999" green="0.43137254899999999" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="LoginWithFaceBook">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZEc-t9-Kkx">
+                                        <rect key="frame" x="0.0" y="50" width="335" height="50"/>
+                                        <color key="backgroundColor" red="1" green="0.39008427969999998" blue="0.62554178360000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Login WithEmail">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="OLe-L0-9KA" kind="show" id="VKB-0t-rXR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7oS-2Q-Buj">
+                                        <rect key="frame" x="0.0" y="100" width="335" height="50"/>
+                                        <color key="backgroundColor" red="0.5718083129" green="0.81764698020000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Register">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="qMT-gz-QB7" kind="show" id="TFn-uB-ic5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vXg-3h-MwW">
+                                        <rect key="frame" x="0.0" y="150" width="335" height="50"/>
+                                        <color key="backgroundColor" red="0.23921568630000001" green="0.69019607839999997" blue="0.73333333329999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="nwU-MH-46H"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="a0G-jM-1Ey" firstAttribute="centerX" secondItem="XFi-qY-vLJ" secondAttribute="centerX" id="GbA-Lo-aFk"/>
+                            <constraint firstItem="a0G-jM-1Ey" firstAttribute="leading" secondItem="yTW-xn-pBS" secondAttribute="leading" constant="20" id="H5c-T0-Tyf"/>
+                            <constraint firstItem="a0G-jM-1Ey" firstAttribute="centerY" secondItem="XFi-qY-vLJ" secondAttribute="centerY" id="KuS-px-SaB"/>
+                            <constraint firstItem="yTW-xn-pBS" firstAttribute="trailing" secondItem="a0G-jM-1Ey" secondAttribute="trailing" constant="20" id="PaE-SM-1Qk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yTW-xn-pBS"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4hP-vO-Bth"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nG0-RL-6cE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-581" y="-280"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="kIk-ob-P4g">
+            <objects>
+                <viewController id="OLe-L0-9KA" customClass="LoginViewController" customModule="MultipleStoryBoard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dyG-Iu-BuP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="JwW-IS-gMM"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SS9-2c-bdI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="76" y="-280"/>
+        </scene>
+        <!--Register View Controller-->
+        <scene sceneID="j1P-bv-taB">
+            <objects>
+                <viewController id="qMT-gz-QB7" customClass="RegisterViewController" customModule="MultipleStoryBoard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="In2-DZ-kxz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="apm-F5-fnf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gPg-KS-PgM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-582" y="473"/>
+        </scene>
+        <!--Forgot Password View Controller-->
+        <scene sceneID="AVp-uG-wHN">
+            <objects>
+                <viewController id="kFS-PE-khS" customClass="ForgotPasswordViewController" customModule="MultipleStoryBoard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ios-4L-yiJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="7yY-46-63o"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QXC-aN-N5D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="737" y="-280"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zgB-WL-9nm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0AF-9W-EG2" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ny6-JB-yaI">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ujj-1i-p44" kind="relationship" relationship="rootViewController" id="TZl-VR-Adn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cu5-lB-lGW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1242" y="-269"/>
+        </scene>
+    </scenes>
+</document>
