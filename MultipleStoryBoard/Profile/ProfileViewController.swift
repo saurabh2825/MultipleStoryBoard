@@ -1,21 +1,19 @@
 //
-//  HomeViewController.swift
+//  ProfileViewController.swift
 //  MultipleStoryBoard
 //
-//  Created by vmoksha mobility on 16/10/17.
+//  Created by vmoksha mobility on 18/10/17.
 //  Copyright © 2017 saurabh suman. All rights reserved.
 //
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class ProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-         self.initialUISetup()
-    
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,7 +21,6 @@ class HomeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
     /*
     // MARK: - Navigation
 
@@ -33,31 +30,9 @@ class HomeViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
-    @IBAction func homeProfileButtonAction(_ sender: Any) {
+    @IBAction func backButtonAction(_ sender: Any) {
     
-        let profileStoryBoard = AppStoryBoard.Profile.instance
-        let profileViewController = profileStoryBoard.instantiateViewController(withIdentifier: "ProfileVCID")
-        self.navigationController?.pushViewController(profileViewController, animated: true)
-        
-         
+    self.navigationController?.popViewController(animated: true)
     }
     
-    
-    
 }
-
-
-extension HomeViewController
-{
-    fileprivate func initialUISetup(){
-    
-
-    
-    }
-    
-    
-}
-
-
-

@@ -24,6 +24,14 @@
 		860CADBB1F948D170039CE3E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CADBA1F948D170039CE3E /* HomeViewController.swift */; };
 		860CADBD1F948D230039CE3E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CADBC1F948D230039CE3E /* SettingsViewController.swift */; };
 		860CADC11F94945C0039CE3E /* AppStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CADC01F94945C0039CE3E /* AppStoryBoard.swift */; };
+		865341421F9761A300669E2E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865341411F9761A300669E2E /* TabBarController.swift */; };
+		865341441F9763E200669E2E /* MyNetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865341431F9763E200669E2E /* MyNetworkViewController.swift */; };
+		865341461F9763F200669E2E /* JobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865341451F9763F200669E2E /* JobViewController.swift */; };
+		865341481F97640600669E2E /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865341471F97640600669E2E /* MessagesViewController.swift */; };
+		8653414A1F97641900669E2E /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865341491F97641900669E2E /* NotificationViewController.swift */; };
+		8653414C1F97682100669E2E /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8653414B1F97682100669E2E /* Profile.storyboard */; };
+		8653414E1F97683C00669E2E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8653414D1F97683C00669E2E /* ProfileViewController.swift */; };
+		865341511F977DA900669E2E /* CustomNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865341501F977DA900669E2E /* CustomNavigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +75,14 @@
 		860CADBA1F948D170039CE3E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		860CADBC1F948D230039CE3E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		860CADC01F94945C0039CE3E /* AppStoryBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoryBoard.swift; sourceTree = "<group>"; };
+		865341411F9761A300669E2E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		865341431F9763E200669E2E /* MyNetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkViewController.swift; sourceTree = "<group>"; };
+		865341451F9763F200669E2E /* JobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobViewController.swift; sourceTree = "<group>"; };
+		865341471F97640600669E2E /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		865341491F97641900669E2E /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		8653414B1F97682100669E2E /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		8653414D1F97683C00669E2E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		865341501F977DA900669E2E /* CustomNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +137,8 @@
 				860CADC01F94945C0039CE3E /* AppStoryBoard.swift */,
 				860CAD7D1F94838D0039CE3E /* AppDelegate.swift */,
 				860CAD7F1F94838D0039CE3E /* ViewController.swift */,
+				865341501F977DA900669E2E /* CustomNavigation.swift */,
+				8653414F1F97695F00669E2E /* Profile */,
 				860CADB91F948A8A0039CE3E /* Login */,
 				860CADBE1F948D320039CE3E /* Home */,
 				860CADBF1F948D3D0039CE3E /* Settings */,
@@ -166,6 +184,11 @@
 			children = (
 				860CADAD1F9487AD0039CE3E /* Home.storyboard */,
 				860CADBA1F948D170039CE3E /* HomeViewController.swift */,
+				865341411F9761A300669E2E /* TabBarController.swift */,
+				865341431F9763E200669E2E /* MyNetworkViewController.swift */,
+				865341451F9763F200669E2E /* JobViewController.swift */,
+				865341471F97640600669E2E /* MessagesViewController.swift */,
+				865341491F97641900669E2E /* NotificationViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -177,6 +200,15 @@
 				860CADBC1F948D230039CE3E /* SettingsViewController.swift */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		8653414F1F97695F00669E2E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8653414B1F97682100669E2E /* Profile.storyboard */,
+				8653414D1F97683C00669E2E /* ProfileViewController.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +323,7 @@
 				860CAD881F94838D0039CE3E /* LaunchScreen.storyboard in Resources */,
 				860CADB01F9487BD0039CE3E /* Settings.storyboard in Resources */,
 				860CAD851F94838D0039CE3E /* Assets.xcassets in Resources */,
+				8653414C1F97682100669E2E /* Profile.storyboard in Resources */,
 				860CAD831F94838D0039CE3E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,12 +351,19 @@
 			files = (
 				860CADB21F948A4D0039CE3E /* LoginViewController.swift in Sources */,
 				860CADC11F94945C0039CE3E /* AppStoryBoard.swift in Sources */,
+				865341481F97640600669E2E /* MessagesViewController.swift in Sources */,
 				860CADB81F948A820039CE3E /* LoginDashBoardViewController.swift in Sources */,
+				865341421F9761A300669E2E /* TabBarController.swift in Sources */,
 				860CADB61F948A6B0039CE3E /* ForgotPasswordViewController.swift in Sources */,
 				860CAD801F94838D0039CE3E /* ViewController.swift in Sources */,
 				860CAD7E1F94838D0039CE3E /* AppDelegate.swift in Sources */,
 				860CADBB1F948D170039CE3E /* HomeViewController.swift in Sources */,
+				865341461F9763F200669E2E /* JobViewController.swift in Sources */,
+				8653414A1F97641900669E2E /* NotificationViewController.swift in Sources */,
 				860CADB41F948A5B0039CE3E /* RegisterViewController.swift in Sources */,
+				865341511F977DA900669E2E /* CustomNavigation.swift in Sources */,
+				8653414E1F97683C00669E2E /* ProfileViewController.swift in Sources */,
+				865341441F9763E200669E2E /* MyNetworkViewController.swift in Sources */,
 				860CADBD1F948D230039CE3E /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

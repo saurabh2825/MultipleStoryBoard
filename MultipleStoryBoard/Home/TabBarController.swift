@@ -1,21 +1,20 @@
 //
-//  HomeViewController.swift
+//  TabBarController.swift
 //  MultipleStoryBoard
 //
-//  Created by vmoksha mobility on 16/10/17.
+//  Created by vmoksha mobility on 18/10/17.
 //  Copyright © 2017 saurabh suman. All rights reserved.
 //
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class TabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-         self.initialUISetup()
-    
+    self.initialUISetup()
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,30 +33,20 @@ class HomeViewController: UIViewController {
     }
     */
 
-    @IBAction func homeProfileButtonAction(_ sender: Any) {
-    
-        let profileStoryBoard = AppStoryBoard.Profile.instance
-        let profileViewController = profileStoryBoard.instantiateViewController(withIdentifier: "ProfileVCID")
-        self.navigationController?.pushViewController(profileViewController, animated: true)
-        
-         
-    }
-    
-    
-    
 }
 
-
-extension HomeViewController
+extension TabBarController
 {
     fileprivate func initialUISetup(){
-    
-
-    
+        
+    self.navigationController?.isNavigationBarHidden = true
+        
+        
     }
     
     
 }
+
 
 
 

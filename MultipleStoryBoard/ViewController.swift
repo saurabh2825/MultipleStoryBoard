@@ -24,16 +24,13 @@ class ViewController: UIViewController {
    
         let loginStoryBoard = AppStoryBoard.Login.instance
         let loginController = loginStoryBoard.instantiateViewController(withIdentifier: "LoginVC")
-
         self.navigationController?.pushViewController(loginController, animated: true)
-        
-        
     }
     
     @IBAction func HomeButtonAction(_ sender: Any) {
     
         let homeStoryboard = AppStoryBoard.Home.instance
-        let homeVC = homeStoryboard.instantiateViewController(withIdentifier: "HomeVC")
+        let homeVC = homeStoryboard.instantiateViewController(withIdentifier: "TabBarVC")
        
         self.navigationController?.pushViewController(homeVC, animated: true)
     }

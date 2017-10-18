@@ -10,7 +10,7 @@ import UIKit
 
 
 enum AppStoryBoard : String {
-    case Main, Login, Settings, Home
+    case Main, Login, Settings, Home, Profile
 
     var instance : UIStoryboard {
        
