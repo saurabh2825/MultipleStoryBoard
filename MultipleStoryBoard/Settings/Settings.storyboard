@@ -12,7 +12,7 @@
         <!--Settings View Controller-->
         <scene sceneID="WDv-1Y-ucf">
             <objects>
-                <viewController storyboardIdentifier="settingsVC" id="nDl-fc-eIE" customClass="SettingsViewController" customModule="MultipleStoryBoard" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SettingsVC" id="nDl-fc-eIE" customClass="SettingsViewController" customModule="MultipleStoryBoard" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oaw-ZK-DRb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

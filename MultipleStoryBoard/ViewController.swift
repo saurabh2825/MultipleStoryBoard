@@ -24,25 +24,25 @@ class ViewController: UIViewController {
    
         let loginStoryBoard = AppStoryBoard.Login.instance
         let loginController = loginStoryBoard.instantiateViewController(withIdentifier: "LoginVC")
-        self.present(loginController, animated: true, completion: nil)
 
+        self.navigationController?.pushViewController(loginController, animated: true)
+        
+        
     }
     
     @IBAction func HomeButtonAction(_ sender: Any) {
     
         let homeStoryboard = AppStoryBoard.Home.instance
         let homeVC = homeStoryboard.instantiateViewController(withIdentifier: "HomeVC")
-        self.present(homeVC, animated: true) {
-            
-        }
-        
+       
+        self.navigationController?.pushViewController(homeVC, animated: true)
     }
 
     @IBAction func settingsButtonAction(_ sender: Any) {
         let settingsStoryBoard = AppStoryBoard.Settings.instance
         let settingsVC = settingsStoryBoard.instantiateViewController(withIdentifier: "SettingsVC")
-        
-        
+        self.navigationController?.pushViewController(settingsVC, animated: true)
+
     
     }
     
